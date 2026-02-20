@@ -3,7 +3,7 @@ authors = ["elinda2703 <ela.pospechova@gmail.com>"]
 channels = ["conda-forge"]
 description = "Add a short description here"
 name = "code"
-platforms = ["win-64"]
+platforms = ["win-64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
@@ -14,3 +14,4 @@ seaborn = ">=0.13.2,<0.14"
 ipykernel = ">=7.1.0,<8"
 ipywidgets = ">=8.1.8,<9"
 ruff = ">=0.14.4,<0.15"
+jupyterlab = ">=4.5.4,<5"
